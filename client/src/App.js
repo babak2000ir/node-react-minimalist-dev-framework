@@ -8,17 +8,17 @@ import './App.css';
 
 function App() {
   return (
-    <div class="container-fluid">
-      <div class="row border">
-        <div class="col"><NavBar /></div>
+    <div className="container-fluid">
+      <div className="row border">
+        <div className="col"><NavBar /></div>
       </div>
-      <div class="row gx-0">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 border-end border-start"><Nav /></div>
-        <div class="col"><Main /></div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 border-end border-start"><Panel /></div>
+      <div className="row gx-0">
+        <div className="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 border-end border-start"><Nav /></div>
+        <div className="col"><Main /></div>
+        <div className="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 border-end border-start"><Panel /></div>
       </div>
-      <div class="row border">
-        <div class="col"><Footer /></div>
+      <div className="row border">
+        <div className="col"><Footer /></div>
       </div>
     </div>
   );
