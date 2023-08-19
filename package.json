@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-clusters-inspector",
-  "description": "Environment to test nodejs worker threads",
+  "name": "minore",
+  "description": "Minimalist Node/React Development Framework",
   "version": "1.0.0",
   "scripts": {
     "start:server": "cd server && npm run dev",

@@ -1,4 +1,4 @@
-# Node/React Minimalist Development Framework
+# Minimalist Node/React Development Framework
 * node
 * react 
 * koa

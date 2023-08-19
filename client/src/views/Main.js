@@ -1,4 +1,12 @@
+import { fetchCall } from '../services/fetchSvc';
 function Main() {
+
+    const handleClick = () => {
+        fetchCall('api', {}, 'post')
+            .then(data => window.alert(data))
+            .catch(error => window.alert(error));
+    }
+
     return (
         <div>
             <div className="container">
@@ -10,10 +18,10 @@ function Main() {
                     <div className="btn-group" role="group" aria-label="Button group with nested dropdown">
                         <div className="btn-group" role="group">
                             <button type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                Try me
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a className="dropdown-item" onClick={handleClick}>Hello World</a></li>
                                 <li><a className="dropdown-item" href="#">Dropdown link</a></li>
                             </ul>
                         </div>
