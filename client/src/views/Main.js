@@ -3,8 +3,8 @@ function Main() {
         <div>
             <div className="container">
                 <div className="container p-2">
-                    <div><h1>Hello from Toronto</h1></div>
-                    <div>From <a>Tilo Mitra</a> at <span>3:56pm, April 3, 2021</span></div>
+                    <div><h1>Titre</h1></div>
+                    <div>Sous<a>-titre</a> at <span>08:21pm, July 13, 2001</span></div>
                 </div>
                 <div className="container p-2">
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
@@ -43,7 +43,7 @@ function Main() {
                 <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="fw-bolder accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                 Accordion Item #1
                             </button>
                         </h2>
@@ -84,7 +84,7 @@ function Main() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <button class="fw-bolder accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                 Accordion Item #2
                             </button>
                         </h2>
@@ -130,7 +130,7 @@ function Main() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <button class="fw-bolder accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                 Accordion Item #3
                             </button>
                         </h2>

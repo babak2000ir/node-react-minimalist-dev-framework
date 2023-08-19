@@ -4,6 +4,8 @@
 * koa
 * webpack
 * craco
+* bootstrap 5
+* bootstrap-icons
 
 ###### v 1.0.0
 
