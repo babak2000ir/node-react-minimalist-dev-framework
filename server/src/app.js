@@ -1,3 +1,7 @@
+//env import & config
+import dotenv from 'dotenv';
+dotenv.config({ path: '../.env' });
+
 //import node
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -27,8 +31,9 @@ router.post('/api', async (ctx) => {
 });
 
 app.use(router.routes());
+const clientPath = process.env.NODE_ENV === 'development' ? '../../client/build' : '../../dist/client' ;
+app.use(serve(path.join(__dirname, clientPath)));
 
-app.use(serve(path.join(__dirname, '/client')));
-
-app.listen(3000);
-console.log("Server is listening on port 3000");
+const port = process.env.port || 8080;
+app.listen(port);
+console.log(`Server is listening on port ${port}`);

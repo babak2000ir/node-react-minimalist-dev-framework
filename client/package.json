@@ -19,7 +19,6 @@
     "eject:react": "react-scripts eject",
     "start": "npm i && craco start  --verbose",
     "build": "craco build",
-    "postbuild": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./postbuild.ps1",
     "test": "craco test"
   },
   "eslintConfig": {

@@ -11,7 +11,7 @@
                 "Server"
             ]
         },
-        {
+{
             "type": "npm",
             "path": "client",    
             "script": "start",

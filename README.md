@@ -7,6 +7,10 @@
 * bootstrap 5
 * bootstrap-icons
 
+###### v 1.1.0
+
+Changes to config deployment to azure.
+
 ###### v 1.0.0
 
 This is a framework I put together to start developing node/react apps as fast as possible without getting bogged down with all the setup.
