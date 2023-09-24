@@ -1,9 +1,10 @@
+import logo from '../images/logo.png';
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    <img src='/logo.png' alt="Logo" width="36" height="29" className="d-inline-block align-text-top" />
+                    <img src={logo} alt="Logo" width="36" height="29" className="d-inline-block align-text-top" />
                     <span> Minore</span>
                 </a>
                 <div className="float-end">

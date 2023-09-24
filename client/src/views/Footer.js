@@ -1,9 +1,11 @@
+import logo from '../images/logo.png';
+
 function Footer() {
     return (
         <footer className="container p-4 rounded">
             <div className="d-lg-flex justify-content-between">
                 <div>
-                    <img src='/logo.png' alt="Logo" width="60" height="48" className="d-inline-block align-text-top" />
+                    <img src={logo} alt="Logo" width="60" height="48" className="d-inline-block align-text-top" />
                 </div>
                 <div className="copyright">
                     <p>developed and maintained by <a href="https://github.com/babak2000ir/node-react-minimalist-dev-framework" target="_blank">Babak</a></p>
