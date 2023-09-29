@@ -31,8 +31,13 @@ router.post('/api', async (ctx) => {
 });
 
 app.use(router.routes());
-const clientPath = process.env.NODE_ENV === 'development' ? '../../client/build' : '../../dist/client' ;
-app.use(serve(path.join(__dirname, clientPath)));
+
+if (process.env.NODE_ENV === 'development') {
+  app.use(serve(path.join(__dirname, '../../client/build')));
+  app.use(serve(path.join(__dirname, '../../client/public')));
+}
+else
+  app.use(serve(path.join(__dirname, '../../dist/client')));
 
 const port = process.env.port || 8080;
 app.listen(port);

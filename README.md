@@ -7,6 +7,14 @@
 * bootstrap 5
 * bootstrap-icons
 
+###### v 1.1.1
+
+Build fixes:
+
+Client build folder is cleaned up in development cycles.
+Public folder is server correctly on development server.
+Build command takes care of public folder correclty.
+
 ###### v 1.1.0
 
 Changes to config deployment to azure.
