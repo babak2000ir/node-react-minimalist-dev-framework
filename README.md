@@ -2,10 +2,19 @@
 * node
 * react 
 * koa
+* axios
+* zustand
 * webpack
 * craco
 * bootstrap 5
 * bootstrap-icons
+
+###### v 1.1.2
+
+More logs
+Init mechanism before starting the server
+Axios sample call, using oAuth
+Zustand sample store
 
 ###### v 1.1.1
 
