@@ -3,8 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "npm i && webpack --config ./webpack.config.js --mode=production",
-    "dev": "npm i && webpack --config ./webpack.config.js --mode=development"
+    "build": "npm i",
+    "publish": "npm i && webpack --config ./webpack.config.js --mode=production",
+    "dev": "npm i && webpack --config ./webpack.config.js --mode=development",
+    "clean": "rimraf node_modules && rimraf package-lock.json"
   },
   "author": "Babak Jahedmanesh <babak.jahedmanesh@gmail.com>",
   "license": "ISC",
@@ -15,7 +17,8 @@
     "koa": "^2.14.2",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^12.0.0",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "openai": "^4.56.0"
   },
   "devDependencies": {
     "nodemon-webpack-plugin": "^4.8.1",

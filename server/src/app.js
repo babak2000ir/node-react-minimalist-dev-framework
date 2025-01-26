@@ -13,7 +13,6 @@ import serve from 'koa-static';
 import Router from 'koa-router';
 import axios from 'axios';
 import oauth from 'axios-oauth-client';
-import { time } from 'node:console';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

@@ -9,6 +9,28 @@
 * bootstrap 5
 * bootstrap-icons
 
+###### v 1.1.3
+Cleaned up the scripts and dev strategies:
+
+You need a .env in the project root with:
+PORT=3001 
+This will be the port your node server runs on, this server also serves the rect application in production as well as development mode.
+
+mpn run scripts from root:
+"clean": cleans packages, json files and published app (dist) 
+"build": mpn i dev stuff, client and server
+"publish": creates production ready app (dist)
+"prod": runs the production release
+"dev": will run your development mode
+
+Server runs on port 3001
+Client development mode using craco runs on port 3000
+
+You can load app using both port in development mode but In production, only the server port is active.
+
+task.js for development with multi panel is still working, you can aslo use the new mpn run dev with chocolatey.
+
+
 ###### v 1.1.2
 
 More logs

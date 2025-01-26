@@ -9,6 +9,7 @@
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-json-tree": "^0.19.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "zustand": "^4.4.1"
@@ -18,9 +19,11 @@
     "build:react": "react-scripts build",
     "test:react": "react-scripts test",
     "eject:react": "react-scripts eject",
-    "start": "npm i && craco start  --verbose",
-    "build": "craco build",
-    "test": "craco test"
+    "dev": "npm i && craco start  --verbose",
+    "build": "npm i",
+    "publish": "craco build",
+    "test": "craco test",
+    "clean": "rimraf node_modules && rimraf package-lock.json"
   },
   "eslintConfig": {
     "extends": [
