@@ -9,11 +9,13 @@
 * bootstrap 5
 * bootstrap-icons
 
+>run npm i in the root as the first step
+
 ###### v 1.1.3
 Cleaned up the scripts and dev strategies:
 
 You need a .env in the project root with:
-PORT=3001 
+SERVERPORT=3001 
 This will be the port your node server runs on, this server also serves the rect application in production as well as development mode.
 
 mpn run scripts from root:

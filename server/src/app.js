@@ -77,7 +77,7 @@ if (process.env.NODE_ENV === 'development') {
 else
   app.use(serve(path.join(__dirname, '../../dist/client')));
 
-const port = process.env.port || 8080;
+const port = process.env.serverport || 8080;
 
 Init()
   .then(() => {
